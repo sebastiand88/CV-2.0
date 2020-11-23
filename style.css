@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Gloria+Hallelujah&family=Montserrat&family=Source+Code+Pro&display=swap");
+/* Nav Bar */
+.navbar-brand {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+}
+.nav-item {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.2rem;
+  padding-right: 30px;
+}
+.navbar {
+  background-image: -webkit-linear-gradient(75deg, #111e68 40%, #031f3b 60%);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: -webkit-linear-gradient(65deg, #111e68 40%, #031f3b 60%);
+  font-family: "DM Serif Display", serif;
+  color: rgb(190, 170, 170);
+  text-align: center;
+}
+.icon1 {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.icon2 {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.icon3 {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+/* Tabs */
+
+.tab-container {
+  background-image: -webkit-linear-gradient(75deg, #b1b1b3 40%, #bac2ca 60%);
+  margin-top: -35px;
+}
+.tab-pane {
+  font-family: "Montserrat", sans-serif;
+}
+.image1 {
+  max-width: 400px;
+  max-height: 200px;
+}
+.homeworkImg {
+  max-width: 300px;
+  max-height: 200px;
+}
+.form-control {
+  margin-bottom: 30px;
+}
+.contact1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.contact2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav {
+  padding: 30px 0 0 50px;
+}
+.tab-content {
+  padding: 50px 20px 0 20px;
+  text-align: center;
+}
+
+/* Table */
+
+.table {
+  margin-top: 50px;
+}
+.tablecontainer {
+  margin-bottom: 40px;
+}
+.tableText {
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tableImg {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 10px;
+}
+.tableImg2 {
+  max-width: 50px;
+  max-height: 50px;
+}
+.homeworkText {
+  font-family: "Gloria Hallelujah";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111e68;
+}
+.homeworkText2 {
+  font-family: "Gloria Hallelujah";
+  color: #111e68;
+}
+
+/* Photo Gallery */
+
+.gallery {
+  background-image: -webkit-linear-gradient(65deg, #111e68 40%, #031f3b 60%);
+  max-width: 500px;
+  max-height: 300px;
+  color: white;
+}
+.galleryText {
+  font-family: "Gloria Hallelujah";
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.carousel-inner {
+  padding: 0 10px 0 10px;
+}
+.galleryText2 {
+  font-family: "Gloria Hallelujah";
+  color: white;
+  padding: 20px 0 20px 20px;
+}
+
+/* Code */
+
+.code {
+  margin: 50px 0 50px 0;
+}
+.codeText {
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer */
+
+.bottom-container {
+  margin-top: -40px;
+  padding-top: 50px;
+  height: 150px;
+  background-image: -webkit-linear-gradient(65deg, #00bfff 40%, #1e90ff 60%);
+  text-align: center;
+}
+.footer-link {
+  color: white;
+  padding: 0px 40px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Responsive Site */
+
+@media only screen and (min-width: 1200px) {
+  /* Tabs */
+
+  .image1 {
+    max-width: 1200px;
+    max-height: 900px;
+  }
+  .homeworkImg{
+    max-width: 1200px;
+    max-height: 900px;
+  }
+  }
+
+  /* Table */
+
+  .tablecontainer{
+    padding: 0 100px 0 100px;
+  }
+  
+  /* Code */
+  
+  .code{
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+  /* Tabs */
+
+  .image1 {
+    max-width: 900px;
+    max-height: 700px;
+  }
+  .homeworkImg{
+    max-width: 900px;
+    max-height: 700px;
+  }
+  }
+
+  /* Table */
+
+  .tablecontainer{
+    padding: 0 100px 0 100px;
+  }
+  /* Code */
+  
+  .code{
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  /* Tabs */
+
+  .image1 {
+    max-width: 700px;
+    max-height: 500px;
+  }
+  .homeworkImg{
+    max-width: 700px;
+    max-height: 500px;
+  }
+  }
+
+  /* Table */
+
+  .tablecontainer{
+    padding: 0 100px 0 100px;
+  }
+  
+  /* Code */
+  
+  .code{
+    padding: 0 50px 0 50px;
+  }
+}
+
+
